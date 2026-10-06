@@ -64,7 +64,27 @@ show etherchannel summary
 show port-security interface ethernet 0/1
 ```
 
-Detailed task-by-task implementation is available in [Documentation](documentation/).
+## Tasks
+
+| # | Task | Status |
+|---:|---|:---:|
+| 01 | [Device & Topology Preparation](documentation/01-device-topology-preparation.md) | ✅ |
+| 02 | [IPv4 Addressing](documentation/02-ipv4-addressing.md) | ✅ |
+| 03 | [VLANs](documentation/03-vlans.md) | ✅ |
+| 04 | [Access Ports](documentation/04-access-ports.md) | ✅ |
+| 05 | [Trunking](documentation/05-trunking.md) | ✅ |
+| 06 | [Inter-VLAN Routing](documentation/06-inter-vlan-routing.md) | ✅ |
+| 07 | [DHCP](documentation/07-dhcp.md) | ✅ |
+| 08 | [Static & Default Routing](documentation/08-static-default-routing.md) | ✅ |
+| 09 | [Internet Simulation](documentation/09-internet-simulation.md) | ✅ |
+| 10 | [SSH Device Security](documentation/10-ssh-device-security.md) | ✅ |
+| 11 | [ACLs](documentation/11-acls.md) | ✅ |
+| 12 | [NAT/PAT](documentation/12-nat-pat.md) | ✅ |
+| 13 | [STP](documentation/13-stp.md) | ✅ |
+| 14 | [EtherChannel](documentation/14-etherchannel.md) | ✅ |
+| 15 | [Port Security](documentation/15-port-security.md) | ✅ |
+
+Detailed implementation notes: [Documentation](documentation/).
 
 ## Project Status
 
