@@ -1,6 +1,8 @@
 # Cisco Enterprise Network Lab
 
-A practical Cisco networking lab built with **EVE-NG** to practice CCNA-level networking skills.
+**Portfolio Priority: #2 — Core Networking**
+
+A practical Cisco networking lab built with **EVE-NG** covering switching, routing, VLANs, ACLs, NAT/PAT, STP, EtherChannel, port security, and troubleshooting.
 
 ## Lab Environment
 
@@ -17,24 +19,8 @@ A practical Cisco networking lab built with **EVE-NG** to practice CCNA-level ne
 - SW2
 
 ## Topology
-<img width="1374" height="1145" alt="image" src="https://github.com/user-attachments/assets/382940d4-9af6-4bba-bc90-539feb0947be" />
 
-  
-## Main Technologies
-
-- IPv4 Addressing & Subnetting
-- VLANs
-- Access Ports
-- 802.1Q Trunking
-- Inter-VLAN Routing
-- DHCP
-- Static & Default Routing
-- SSH
-- ACLs
-- NAT/PAT
-- STP
-- LACP EtherChannel
-- Port Security
+<img width="1374" height="1145" alt="Cisco enterprise network topology" src="https://github.com/user-attachments/assets/382940d4-9af6-4bba-bc90-539feb0947be" />
 
 ## VLANs
 
@@ -45,35 +31,40 @@ A practical Cisco networking lab built with **EVE-NG** to practice CCNA-level ne
 | 30 | IT | 192.168.30.0/24 |
 | 40 | Servers | 192.168.40.0/24 |
 
-## What Was Practiced
+## Skills Demonstrated
 
-- Built the network topology in EVE-NG.
-- Configured VLANs and trunk links.
-- Implemented Router-on-a-Stick for inter-VLAN routing.
-- Configured DHCP for multiple VLANs.
-- Configured static and default routing.
-- Configured SSH for remote management.
-- Used ACLs to control traffic between VLANs.
-- Configured NAT/PAT for Internet access.
-- Configured STP and tested link failure.
-- Configured LACP EtherChannel.
-- Configured Port Security and tested a MAC violation.
-- Practiced troubleshooting during configuration problems.
+- IPv4 addressing and subnetting
+- VLANs and access ports
+- 802.1Q trunking
+- Inter-VLAN routing / Router-on-a-Stick
+- DHCP
+- Static and default routing
+- SSH management
+- ACLs
+- NAT/PAT
+- STP and link-failure testing
+- LACP EtherChannel
+- Port Security and MAC-violation testing
+- Troubleshooting and verification
 
 ## Verification
 
-Common Cisco commands used:
+Common verification commands:
 
-    show ip interface brief
-    show vlan brief
-    show interfaces trunk
-    show ip route
-    show ip dhcp binding
-    show access-lists
-    show ip nat translations
-    show spanning-tree
-    show etherchannel summary
-    show port-security interface ethernet 0/1
+```text
+show ip interface brief
+show vlan brief
+show interfaces trunk
+show ip route
+show ip dhcp binding
+show access-lists
+show ip nat translations
+show spanning-tree
+show etherchannel summary
+show port-security interface ethernet 0/1
+```
+
+Detailed task-by-task implementation is available in [Documentation](documentation/).
 
 ## Project Status
 
@@ -81,4 +72,4 @@ Common Cisco commands used:
 
 IPv6 was reviewed but not implemented.
 
-OSPF will be practiced in a **separate lab**.
+OSPF is intentionally kept for a separate routing lab rather than duplicating the project scope.
